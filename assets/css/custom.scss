@@ -11,6 +11,13 @@ a {
 a:hover {
     color: $header-color;
     text-decoration: none; }
+ul {
+  list-style: circle outside; }
+ol {
+  list-style: decimal outside; }
+ol, ul {
+  padding-left: 3rem;
+  margin-top: 0; }
 .container {
     max-width: 960px; }
 .poster {
@@ -85,6 +92,7 @@ a:hover {
 .value-img {
   display: block;
   text-align: center;
+  width: 200px;
   margin: 0 auto 0; }
 .navbar,
 .navbar-spacer {
