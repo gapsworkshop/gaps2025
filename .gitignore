@@ -7,4 +7,5 @@ _site/
 vendor/
 # ignore cached files
 /**/.DS_Store
-*~
+/**/*~
+/**/#*#
