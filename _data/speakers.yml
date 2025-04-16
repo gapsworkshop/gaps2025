@@ -1,14 +1,21 @@
-- name: Tim Beyne
+- first: Tim
+  last: Beyne
   affiliation: COSIC, KU Leuven
-- name: Wonseok Choi
+- first: Wonseok
+  last: Choi
   affiliation: Purdue University and Georgia Tech.
-- name: Tetsu Iwata
+- first: Tetsu
+  last: Iwata
   affiliation: Nagoya University
-- name: Kazuhiko Minematsu
+- first: Kazuhiko
+  last: Minematsu
   affiliation: NEC Corporation
-- name: Mridul Nandi
+- first: Mridul
+  last: Nandi
   affiliation: ISI Kolkata
-- name: Yu Sasaki
+- first: Yu
+  last: Sasaki
   affiliation: NTT Secure Platform Labs. and NIST
-- name: André Schrottenloher
+- first: André
+  last: Schrottenloher
   affiliation: Inria Rennes

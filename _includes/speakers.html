@@ -4,12 +4,12 @@
     (confirmed so far)
   </p>
   <div class="row">
-    {% assign items = site.data.speakers %}
+    {% assign items = site.data.speakers | sort: "last" %}
     {% assign halfway = items.size | plus:1 | divided_by:2 %}
     <ul class= "six columns">
       {% for item in items limit:10 %}
       <li>
-	{{ item.name }} ({{ item.affiliation }})
+	{{ item.first }} {{ item.last }} ({{ item.affiliation }})
       </li>
       {% endfor %}
     </ul>
