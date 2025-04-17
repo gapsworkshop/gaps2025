@@ -1,4 +1,24 @@
 <div class="docs-section" id="participants">
   <div class="docs-header">Participants</div>
-  <p>Coming soon.</p>
+  <p style="color: #1fc598; font-weight: bold font-size: small">
+    (confirmed so far)
+  </p>
+  <div class="row">
+    {% assign items = site.data.participants | sort: "last" %}
+    {% assign halfway = items.size | plus:1 | divided_by:2 %}
+    <ul class= "six columns">
+      {% for item in items limit:3 %}
+      <li>
+	{{ item.first }} {{ item.last }} ({{ item.affiliation }})
+      </li>
+      {% endfor %}
+    </ul>
+    <!--<ul class= "six columns">
+      {% for item in items offset:halfway %}
+      <li>
+	{{ item.name }} ({{ item.affiliation }})
+      </li>
+      {% endfor %}
+    </ul>-->
+  </div>
 </div>
