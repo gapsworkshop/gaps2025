@@ -6,7 +6,10 @@
   affiliation: COSIC, KU Leuven
 - first: Wonseok
   last: Choi
-  affiliation: Purdue University and Georgia Tech.
+  affiliation: Purdue University and Georgia Tech
+- first: Chun
+  last: Guo
+  affiliation: Shandong University
 - first: Tetsu
   last: Iwata
   affiliation: Nagoya University
@@ -18,7 +21,7 @@
   affiliation: ISI Kolkata
 - first: Yu
   last: Sasaki
-  affiliation: NTT Secure Platform Labs. and NIST
+  affiliation: NTT Secure Platform Labs and NIST
 - first: André
   last: Schrottenloher
   affiliation: Inria Rennes
