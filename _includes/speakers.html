@@ -7,18 +7,18 @@
     {% assign items = site.data.speakers | sort: "last" %}
     {% assign halfway = items.size | plus:1 | divided_by:2 %}
     <ul class= "six columns">
-      {% for item in items limit:10 %}
+      {% for item in items limit:halfway %}
       <li>
-	{{ item.first }} {{ item.last }} ({{ item.affiliation }})
+	<b>{{ item.first }} {{ item.last }}</b> ({{ item.affiliation }})
       </li>
       {% endfor %}
     </ul>
-    <!--<ul class= "six columns">
+    <ul class= "six columns">
       {% for item in items offset:halfway %}
       <li>
-	{{ item.name }} ({{ item.affiliation }})
+	<b>{{ item.first }} {{ item.last }}</b> ({{ item.affiliation }})
       </li>
       {% endfor %}
-    </ul>-->
+    </ul>
   </div>
 </div>
