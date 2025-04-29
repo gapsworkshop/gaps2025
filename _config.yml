@@ -30,6 +30,8 @@ cssurl: "/assets/css"
 imageurl: "/assets/images"
 jsurl: "/assets/js"
 
+google_site_verification: "v4JhPdP7T5fUY9QmdbUhBVI2ElJRfZqYM3EPmwodQrQ"
+
 sass:
   style: compressed
 
