@@ -1,4 +1,24 @@
 <div class="docs-section" id="program">
-  <div class="docs-header">Program</div>
-  <p>Coming soon.</p>
+	<div class="docs-header">Program</div>
+	<div class="program-bar">
+		{% for day in site.data.program %}
+	  	<button class="button-primary {% if forloop.first %}active{% endif %}" data-dayid="{{ day.id }}" data-date="{{ day.date }}">{{ day.day }}</button>
+	  	{% endfor %}
+  	</div>
+  	<div>
+		{% for day in site.data.program %}
+	  	<ul class="days-program {% if forloop.first %}active{% endif %}" id="{{ day.id }}">
+			{% for session in day.sessions %}
+			<li class="row">
+				<div class="three columns value-prop">
+					{{ session.time }}
+				</div>
+				<div class="eight columns value-prop">
+					<b>{{ session.speaker }}: </b><i>{{ session.title }}</i>
+				</div>
+			</li>
+			{% endfor %}
+	  	</ul>
+	  	{% endfor %}
+	</div>
 </div>
