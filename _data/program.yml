@@ -24,7 +24,7 @@
           title: "Cymric: Short-tailed but Mighty"
           speaker: "Wonseok Choi"
         - time: "11:30 - 12:00"
-          title: "Naor-Reingold goes Beyond-the-Birthday-Bound"
+          title: "Naor-Reingold goes Beyond the Birthday Bound"
           speaker: "Nilanjan Datta"
         - time: "12:00 - 12:30"
           title: "The Exact Multi-User Security of Key-Alternating Feistel Ciphers with a Single Permutation"
@@ -64,11 +64,11 @@
       location: "Colloquium Seminar Room 2, Level 5"
       #chair: ""
       talks:
-        - time: "11:00 - 12:00 PM"
+        - time: "11:00 - 12:00"
           title: "Picking up the Fallen Mask: Breaking and Fixing the RS-Mask Countermeasure"
           speaker: "Svetla Nikova"
           note: "Co-located seminar @ LT4"
-        - time: "12:00 - 12:45 PM"
+        - time: "12:00 - 12:45"
           title: "Leakage-resilient Cryptography"
           speaker: "Chun Guo"
     - break:
@@ -200,12 +200,12 @@
           title: "Key Control Security of Key Derivation Functions from NIST SP 800-108"
           speaker: "Tetsu Iwata"
     - break:
-        time: "12:15 - 14:30"
+        time: "12:15 - 14:15"
         type: "Lunch break"
         location: "MAS Atrium, Level 3"
     - name: "Post-lunch"
       others:
-        - time: "14:30 - 16:00"
+        - time: "14:15 - 16:00"
           type: "Group discussions"
         - time: "16:00 - 16:30"
           type: "Coffee break"
