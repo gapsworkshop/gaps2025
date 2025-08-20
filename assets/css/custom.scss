@@ -78,6 +78,15 @@ ol, ul {
     display: block;
     margin-top: 1rem;
     list-style: none; }
+.talks,
+.break,
+.others {
+    list-style: none;
+}
+.session-end {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 3rem; /* optional, gives some breathing room */
+}
 .docs-header {
   text-transform: uppercase;
   font-size: 2.5rem;
