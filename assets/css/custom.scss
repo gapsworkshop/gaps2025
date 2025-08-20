@@ -1,6 +1,8 @@
 ---
 ---
 $text-color: #222222;
+$tab-color: #39e0b2;
+$tab-hover-color: #1fc598;
 $header-color: #1fc598;
 $title-color: #ffffff;
 body {
@@ -67,6 +69,24 @@ ol, ul {
 .value-props {
     margin-top: 4rem;
     margin-bottom: 4rem; }
+.program-bar {
+	margin-top: 1rem;
+}
+.days-program {
+    display: none; }
+.days-program.active {
+    display: block;
+    margin-top: 1rem;
+    list-style: none; }
+.talks,
+.break,
+.others {
+    list-style: none;
+}
+.session-end {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 3rem; /* optional, gives some breathing room */
+}
 .docs-header {
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -151,6 +171,34 @@ ol, ul {
 	width: 40vh;
 	height: 40vh;
 	border: 0; }
+
+/* Buttons */
+.button,
+button {
+	padding: 0 10px;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+}
+	
+.button.button-primary,
+button.button-primary {
+	color: #fff;
+	background-color: $tab-color;
+	border-color: $tab-color;
+}
+
+.button.button-primary:hover,
+.button.button-primary:focus,
+.button.button-primary.active,
+button.button-primary:hover,
+button.button-primary:focus,
+button.button-primary.active, {
+	color: #fff;
+	background-color: $tab-hover-color;
+	border-color: $tab-hover-color;
+}
 
 /* Hamburger */
   .hamburger.open {
