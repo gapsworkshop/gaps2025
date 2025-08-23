@@ -69,7 +69,7 @@
           speaker: "Svetla Nikova"
           note: "Co-located seminar @ LT4"
         - time: "12:00 - 12:45"
-          title: "Leakage-resilient Cryptography"
+          title: "Leakage-resilient AEADs"
           speaker: "Chun Guo"
     - break:
         time: "12:45 - 14:30"
