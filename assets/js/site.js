@@ -32,7 +32,7 @@ $(document).ready(function () {
     }
 
     function defaultProgram() {
-	const today = new Date().toISOString().split('T')[0];
+	const today = new Date().toLocaleDateString('en-CA');
 	let $matchedButton = null;
 	let earliestDate = null;
 	let latestDate = null;
