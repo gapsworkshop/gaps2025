@@ -18,7 +18,7 @@
         location: "MAS Atrium, Level 3"
     - name: "Pre-lunch"
       location: "Colloquium Seminar Room 2, Level 5"
-      #chair: ""
+      chair: "Ritam Bhaumik"
       talks:
         - time: "11:00 - 11:30"
           title: "Cymric: Short-tailed but Mighty"
