@@ -48,21 +48,21 @@
   sessions:
     - name: "Morning"
       location: "Colloquium Seminar Room 2, Level 5"
-      #chair: ""
+      chair: "Patrick Struck"
       talks:
         - time: "09:00 - 09:45"
-          title: "Proof Techniques for a Quantum World"
-          speaker: "Ritam Bhaumik"
-        - time: "09:45 - 10:30"
           title: "Quantum Attacks on Symmetric Constructions"
           speaker: "André Schrottenloher"
+        - time: "09:45 - 10:30"
+          title: "Proof Techniques for a Quantum World"
+          speaker: "Ritam Bhaumik"
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
         location: "MAS Atrium, Level 3"
     - name: "Pre-lunch"
       location: "Colloquium Seminar Room 2, Level 5"
-      #chair: ""
+      #chair: "Mustafa Khairallah"
       talks:
         - time: "11:00 - 12:00"
           title: "Picking up the Fallen Mask: Breaking and Fixing the RS-Mask Countermeasure"
