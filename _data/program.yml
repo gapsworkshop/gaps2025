@@ -4,7 +4,7 @@
   sessions:
     - name: "Morning"
       location: "Colloquium Seminar Room 2, Level 5"
-      #chair: ""
+      chair: "Tetsu Iwata"
       talks:
         - time: "09:00 - 09:45"
           title: "Security by Contract"
