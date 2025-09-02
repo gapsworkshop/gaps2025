@@ -62,7 +62,7 @@
         location: "MAS Atrium, Level 3"
     - name: "Pre-lunch"
       location: "Colloquium Seminar Room 2, Level 5"
-      #chair: "Mustafa Khairallah"
+      chair: "Shivam Bhasin / Mustafa Khairallah"
       talks:
         - time: "11:00 - 12:00"
           title: "Picking up the Fallen Mask: Breaking and Fixing the RS-Mask Countermeasure"
