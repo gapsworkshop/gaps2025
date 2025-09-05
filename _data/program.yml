@@ -176,7 +176,7 @@
   sessions:
     - name: "Morning"
       location: "Colloquium Seminar Room 2, Level 5"
-      #chair: ""
+      chair: "Thomas Peyrin"
       talks:
         - time: "09:00 - 09:45"
           title: "Vector Semi-commitment and Connections with Symmetric Provable Security"
