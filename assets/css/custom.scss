@@ -22,6 +22,12 @@ ol, ul {
   margin-top: 0; }
 .container {
     max-width: 960px; }
+.flex-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-left: 1rem;
+    margin: 1rem auto 3rem 0;}
 .poster {
     position: relative;
     height: 40vh;
@@ -292,6 +298,8 @@ button.button-primary.active, {
       margin-top: 4.5rem; }
   .maps-view {
       width: 50vh; }
+  .flex-img {
+      width: 90%;}
 }
 
 /* Larger than tablet */
@@ -313,4 +321,6 @@ button.button-primary.active, {
         justify-content: flex-end; /* Spaces out the logo and navbar */ }
     .map-view {
 	width: 50vh; }
+  .flex-img {
+      width: 90%;}
 }
