@@ -13,7 +13,7 @@
         - time: "09:45 - 10:30"
           title: "Provable Security from a Cryptanalysis Perspective"
           speaker: "Tim Beyne"
-          # pdf: "tim.pdf"
+          pdf: "tim.pdf"
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
@@ -58,7 +58,7 @@
         - time: "09:00 - 09:45"
           title: "Quantum Attacks on Symmetric Constructions"
           speaker: "André Schrottenloher"
-          # pdf: "andre.pdf"
+          pdf: "andre.pdf"
         - time: "09:45 - 10:30"
           title: "Proof Techniques for a Quantum World"
           speaker: "Ritam Bhaumik"
